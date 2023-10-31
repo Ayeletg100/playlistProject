@@ -19,10 +19,65 @@
         </fieldset>
     </template>
 
-    <template id="app"></template>
+    <template id="app">
+        <header></header>
+        <h1>my playlists:</h1>
+        <div id="container">
+            <div id="Playlist1">
+                
+            </div>
+            <button>+</button>
+        </div>
 
+        <!-- <button onclick="userlogout()">logout</button> -->
+    </template>
+    <template id="inPlaylist">
+        <h1></h1>
+        <aside>
+            <button>+</button>
+            <div id="addSong">
+                <input type="search" id="searchForAdd">
+                <button>search</button>
+            </div>
+            <!-- <label>search in playlist</label>
+            <input type="search"> -->
+
+        </aside>
+        <div id="currPlaylist">
+            <!--list of the songs in a plexbox-->
+        </div>
+    </template>
+
+    <template id="app">
+        <header></header>
+        <h1>my playlists:</h1>
+        <div id="container">
+            <div id="Playlist1">
+
+            </div>
+            <button>+</button>
+
+        </div>
+        <!-- <button onclick="userlogout()">logout</button> -->
+    </template>
+    <template id="inPlaylist">
+        <h1></h1>
+        <aside>
+            <button>+</button>
+            <div id="addSong">
+                <input type="search" id="searchForAdd">
+                <button>search</button>
+            </div>
+            <!-- <label>search in playlist</label>
+                <input type="search"> -->
+
+        </aside>
+        <div id="currPlaylist">
+            <!--list of the songs in a plexbox-->
+        </div>
+
+    </template>
     <div id="currPage"></div>
-
     <script src="login.js"></script>
 </body>
 
