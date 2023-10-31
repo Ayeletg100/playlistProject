@@ -2,33 +2,24 @@ class User{
     static count= 1;
 
     constructor(username, password ){
-        this.id=count;
+        this.id=User.count;
         this.username=username;
         this.password=password;
-        this._playlists=[];
+        this._webPasswords=[];
 
-        count++;
+        User.count++;
     }
 
 }
 
-class Playlist{
-    static count=1;
-    constructor(name){
-        this.id= count;
-        this.name=name;
-        this.songs=[];
+class webPassword{
+    static count= 1;
 
-        count++;
-    }
-}
-
-class Song{
-    static count=1;
-    constructor(name, artist){
-        this.id=count
-        this.name=name;
-        this.artist=artist;
+    constructor(webName, userNameW,passwordW ){
+        this.id= webPassword.count;
+        this.userNameW=userNameW;
+        this.passwordW=passwordW;
+        webPassword.count++;
     }
 }
 
