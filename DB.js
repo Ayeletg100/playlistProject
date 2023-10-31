@@ -10,7 +10,10 @@ class User{
         User.count++;
     }
 
+    
 }
+
+
 
 class webPassword{
     static count= 1;
@@ -23,3 +26,6 @@ class webPassword{
     }
 }
 
+const songs = []
+songs.push(new Song('Happy', 'pharell wiliams'));
+localStorage.setItem("songs", JSON.stringify(songs))
