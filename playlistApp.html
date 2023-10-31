@@ -6,17 +6,44 @@
     <title>Playlist App</title>
 </head>
 <body>
-    <template id="login">
-        <fieldset>
-            <legend>Log in</legend>
-            <input id="name" type="text" placeholder="Name...">
-            <br> <br>
-            <input id="password" type="password" placeholder="Password...">
-            <br> <br>
-            <button onclick="formCheck()">Enter</button>
-            <button onclick="switchPage('signup')">Sign up</button>
-        </fieldset>
+
+  
+
+    <template id="app">
+        <header></header>
+        <h1>my playlists:</h1>
+        <div id="container">
+            <div id="Playlist1">
+
+            </div>
+            <button>+</button>
+            
+        </div>
+
+        <!-- <button onclick="userlogout()">logout</button> -->
     </template>
-    
+    <template id="inPlaylist">
+        <h1></h1>
+        <aside>
+            <button>+</button>
+            <div id="addSong">
+                <input type="search" id="searchForAdd">
+                <button>search</button>
+            </div>
+            <!-- <label>search in playlist</label>
+            <input type="search"> -->
+
+        </aside>
+        <div id="currPlaylist">
+            <!--list of the songs in a plexbox-->
+
+            
+            
+            
+        </div>
+
+      
+    </template>
+
 </body>
 </html>
