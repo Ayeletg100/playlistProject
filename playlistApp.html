@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playlist App</title>
 </head>
+
 <body>
     <template id="login">
         <fieldset>
             <legend>Log in</legend>
-            <input id="name" type="text" placeholder="Name...">
+            <input id="username" type="text" placeholder="Name...">
             <br> <br>
             <input id="password" type="password" placeholder="Password...">
             <br> <br>
-            <button onclick="formCheck()">Enter</button>
-            <button onclick="switchPage('signup')">Sign up</button>
+            <button id="submit">Enter</button>
         </fieldset>
     </template>
-    
+
+    <template id="app"></template>
+
+    <div id="currPage"></div>
+
+    <script src="login.js"></script>
 </body>
+
 </html>
